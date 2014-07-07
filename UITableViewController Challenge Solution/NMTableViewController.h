@@ -1,5 +1,5 @@
 //
-//  NMViewController.h
+//  NMTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Nicolás Múnera on 7/07/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NMViewController : UIViewController
+@interface NMTableViewController : UITableViewController
 
 @end

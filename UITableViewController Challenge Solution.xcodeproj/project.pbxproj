@@ -14,13 +14,13 @@
 		7AE0EDF1196A4A6D00E6E393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0EDF0196A4A6D00E6E393 /* main.m */; };
 		7AE0EDF5196A4A6D00E6E393 /* NMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0EDF4196A4A6D00E6E393 /* NMAppDelegate.m */; };
 		7AE0EDF8196A4A6D00E6E393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0EDF6196A4A6D00E6E393 /* Main.storyboard */; };
-		7AE0EDFB196A4A6D00E6E393 /* NMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0EDFA196A4A6D00E6E393 /* NMViewController.m */; };
 		7AE0EDFD196A4A6D00E6E393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0EDFC196A4A6D00E6E393 /* Images.xcassets */; };
 		7AE0EE04196A4A6D00E6E393 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE0EE03196A4A6D00E6E393 /* XCTest.framework */; };
 		7AE0EE05196A4A6D00E6E393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE0EDE4196A4A6D00E6E393 /* Foundation.framework */; };
 		7AE0EE06196A4A6D00E6E393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE0EDE8196A4A6D00E6E393 /* UIKit.framework */; };
 		7AE0EE0E196A4A6D00E6E393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0EE0C196A4A6D00E6E393 /* InfoPlist.strings */; };
 		7AE0EE10196A4A6D00E6E393 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0EE0F196A4A6D00E6E393 /* UITableViewController_Challenge_SolutionTests.m */; };
+		7AE0EE1B196A4E8600E6E393 /* NMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0EE1A196A4E8600E6E393 /* NMTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		7AE0EDF3196A4A6D00E6E393 /* NMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMAppDelegate.h; sourceTree = "<group>"; };
 		7AE0EDF4196A4A6D00E6E393 /* NMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMAppDelegate.m; sourceTree = "<group>"; };
 		7AE0EDF7196A4A6D00E6E393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7AE0EDF9196A4A6D00E6E393 /* NMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMViewController.h; sourceTree = "<group>"; };
-		7AE0EDFA196A4A6D00E6E393 /* NMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMViewController.m; sourceTree = "<group>"; };
 		7AE0EDFC196A4A6D00E6E393 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7AE0EE02196A4A6D00E6E393 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE0EE03196A4A6D00E6E393 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7AE0EE0B196A4A6D00E6E393 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		7AE0EE0D196A4A6D00E6E393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7AE0EE0F196A4A6D00E6E393 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7AE0EE19196A4E8600E6E393 /* NMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTableViewController.h; sourceTree = "<group>"; };
+		7AE0EE1A196A4E8600E6E393 /* NMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				7AE0EDF3196A4A6D00E6E393 /* NMAppDelegate.h */,
 				7AE0EDF4196A4A6D00E6E393 /* NMAppDelegate.m */,
 				7AE0EDF6196A4A6D00E6E393 /* Main.storyboard */,
-				7AE0EDF9196A4A6D00E6E393 /* NMViewController.h */,
-				7AE0EDFA196A4A6D00E6E393 /* NMViewController.m */,
+				7AE0EE19196A4E8600E6E393 /* NMTableViewController.h */,
+				7AE0EE1A196A4E8600E6E393 /* NMTableViewController.m */,
 				7AE0EDFC196A4A6D00E6E393 /* Images.xcassets */,
 				7AE0EDEB196A4A6D00E6E393 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE0EDFB196A4A6D00E6E393 /* NMViewController.m in Sources */,
+				7AE0EE1B196A4E8600E6E393 /* NMTableViewController.m in Sources */,
 				7AE0EDF1196A4A6D00E6E393 /* main.m in Sources */,
 				7AE0EDF5196A4A6D00E6E393 /* NMAppDelegate.m in Sources */,
 			);
